@@ -1,4 +1,5 @@
-FROM ghcr.io/moeisool/shinobi:dev
+FROM ghcr.io/moeiscool/shinobi:dev
+
 
 RUN apt update && apt install -y rclone cron
 
